@@ -9,7 +9,7 @@ app = FastAPI(
     )
 
 
-with open("D:\MLOPS\Data Thinkers\ML_Pipeline\model.pkl","rb") as f:
+with open("model.pkl","rb") as f:
     model = pickle.load(f)
 
 
